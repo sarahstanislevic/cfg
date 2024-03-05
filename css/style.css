@@ -1,0 +1,67 @@
+body{
+    background-color:black;
+    display: block;
+    color:whitesmoke;
+    margin: 0;
+}
+h1{
+    display: block;
+    color: #E7EBC5;
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+    font-size: 100pt;
+    font-weight:lighter;
+}
+header {
+    background-color: #7C3238;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    margin: 10px;
+    text-align: center;
+    background-color: #7C3238;
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color:whitesmoke
+;
+}
+nav a:hover {
+    color: #5B6C5D;
+}
+h1{
+        display: block;
+        color: #E7EBC5;
+        text-align: center;
+        font-family: "Kode Mono", monospace;
+        font-size: 100pt;
+        font-weight:lighter;
+}
+.container {
+    width:100%
+}
+#showcase {
+    background-image:url('../images/pic1.jpeg');
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#main {
+    background-color: rgb(105, 8, 8);
+    width:100%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
