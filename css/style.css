@@ -65,3 +65,11 @@ h1{
     width: 100%;
     height: auto;
 }
+
+#main-footer{
+    background: white;
+    color: black;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+}

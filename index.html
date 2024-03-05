@@ -26,10 +26,7 @@
     <div class="container">
         <section id="main">
                 <h2>Z</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, amet
-                    aliquid corrupti, iusto voluptatum quisquam adipisci culpa
-                    beatae quasi iure repellendus vitae minus illum natus! Placeat
-                    officia quia accusamus,</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vitae nisi, possimus qui mollitia pariatur est atque dignissimos, impedit quo dicta in maxime rem ea quia labore iure harum suscipit voluptate cupiditate. Molestiae necessitatibus aperiam ipsum soluta sit cum odio! Nam, dolore? Hic optio iure error animi doloremque similique. Saepe, quis possimus! Odit beatae ipsa reprehenderit ut a totam, non optio tempore rem. Soluta quam temporibus non eaque, cum totam aspernatur aliquid debitis labore ipsam repellendus consectetur explicabo doloribus sapiente dolorem. Perferendis, non tenetur. Voluptates magnam commodi recusandae, nemo exercitationem consequatur adipisci odit officia, amet, nulla expedita laboriosam provident incidunt!</p>
             </section>
             <div class="image-grid">
         <img src="image1.jpg" alt="Image 1">
@@ -37,89 +34,11 @@
         <img src="image3.jpg" alt="Image 3">
         <!-- Add more images as needed -->
     </div>
+
+     <!-- footer -->
+     <footer id="main-footer">
+        <p>Copyright &copy; Zuko Mag </p>
+    </footer>
+
 </body>
 </html>
-1:11
-gallery.html
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="row">
-  <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
-</div>
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-// Declare a loop variable
-var i;
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-</body>
-</html> 
