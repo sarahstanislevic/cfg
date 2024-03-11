@@ -52,7 +52,10 @@ h1{
 #main {
     background-color: rgb(105, 8, 8);
     width:100%;
-    padding: 0 30px;
+    padding: 0 60px;
+    font-style:Lucida Handwriting;
+  padding-top:10px;
+  padding-bottom:20px;
     box-sizing: border-box;
 }
 .image-grid {
@@ -64,6 +67,10 @@ h1{
 .image-grid img {
     width: 100%;
     height: auto;
+}
+
+.h2 {
+  font-style:Copperplate
 }
 
 #main-footer{
