@@ -19,6 +19,13 @@ h1{
     font-size: 100pt;
     font-weight: lighter;
 }
+h2{
+     font-family: "Lexend";
+    font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+    
 header {
     background-color: #7C3238;
     padding: 1%;
