@@ -140,7 +140,6 @@ h1{
     object-fit: cover;
 }
 
-
 .lexend-<uniquifier> {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
@@ -148,9 +147,12 @@ h1{
   font-style: normal;
 }
 
+/* make responsive  */
 @media(max-width: 768px){
     .photo-gallery{
         flex-direction: column;
     }
 }
+
+
 
