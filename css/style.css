@@ -68,7 +68,7 @@ h1{
 
 #showcase {
     /* img not working */
-    background-image: url("https://i.pinimg.com/originals/07/c8/27/07c827e400b5320ead65dabce852cfd2.giff");
+    background-image: url("https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none/plus/misc/images/spinning-optical-illusion.gif");
     background-color: #cccccc;
     background-position: center;
     height: 300px;
@@ -81,7 +81,7 @@ h1{
     color: black;
     width:100%;
     padding: 0 60px;
-    font-style:Lucida Handwriting;
+    font-style: Lucida Handwriting;
   padding-top:10px;
   padding-bottom:20px;
     box-sizing: border-box;
