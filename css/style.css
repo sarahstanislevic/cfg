@@ -55,7 +55,8 @@ h1{
 }
 
 #main {
-    background-color: rgb(105, 8, 8);
+    background-color: #E7EBC5;
+    color: black;
     width:100%;
     padding: 0 60px;
     font-style:Lucida Handwriting;
@@ -81,8 +82,8 @@ h1{
   }
   
   #main-footer{
-      background: #E7EBC5;
-      color: black;
+      background: #7C3238;
+      color: white;
       text-align: center;
       padding:20px;
       margin-top: 40px;
