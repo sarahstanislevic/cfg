@@ -5,14 +5,19 @@ body{
     padding:0;
     margin: 0;
 }
-
+p {
+    font-family: "Lexend";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
 h1{
     display: block;
     color: #E7EBC5;
     text-align: center;
     font-family: "Kode Mono", monospace;
     font-size: 100pt;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 header {
     background-color: #7C3238;
@@ -23,12 +28,20 @@ nav {
     margin: 10px;
     text-align: center;
     background-color: #7C3238;
+    font-family: "Lexend";
+    font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 nav a {
     margin: 10px;
     text-decoration: none;
-    color:whitesmoke
-;
+    color: whitesmoke;
+    font-family: "Lexend";
+    font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
 }
 nav a:hover {
     color: #5B6C5D;
@@ -39,7 +52,7 @@ h1{
         text-align: center;
         font-family: "Kode Mono", monospace;
         font-size: 100pt;
-        font-weight:lighter;
+        font-weight: lighter;
 }
 .container {
     width:100%
@@ -118,6 +131,14 @@ h1{
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+}
+
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 @media(max-width: 768px){
