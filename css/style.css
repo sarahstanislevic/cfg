@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color:#7C3238;
     /* display: block; */
     color:whitesmoke; 
     padding:0;
@@ -21,6 +21,7 @@ h1{
 }
 h2{
      font-family: "Lexend";
+     padding: 10px;
     font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
@@ -154,5 +155,15 @@ h1{
     }
 }
 
-
+/* contact page css */
+.contact-container{
+    font-family: "Lexend";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
 
