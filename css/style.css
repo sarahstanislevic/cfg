@@ -1,9 +1,11 @@
 body{
     background-color:black;
-    display: block;
-    color:whitesmoke;
+    /* display: block; */
+    color:whitesmoke; 
+    padding:0;
     margin: 0;
 }
+
 h1{
     display: block;
     color: #E7EBC5;
@@ -42,13 +44,16 @@ h1{
 .container {
     width:100%
 }
+
 #showcase {
+    /* img not working */
     background-image:url('../images/pic1.jpeg');
     background-position: center right;
     height: 300px;
     margin-bottom: 30px;
     text-align: center;
 }
+
 #main {
     background-color: rgb(105, 8, 8);
     width:100%;
@@ -58,6 +63,8 @@ h1{
   padding-bottom:20px;
     box-sizing: border-box;
 }
+
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -67,16 +74,54 @@ h1{
 .image-grid img {
     width: 100%;
     height: auto;
-}
+}  
 
 .h2 {
-  font-style:Copperplate
+    font-style:Copperplate
+  }
+  
+  #main-footer{
+      background: #E7EBC5;
+      color: black;
+      text-align: center;
+      padding:20px;
+      margin-top: 40px;
+  } 
+
+
+/* gallery page css */
+.gallery-container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
 }
 
-#main-footer{
-    background: white;
-    color: black;
-    text-align: center;
-    padding:20px;
-    margin-top: 40px;
+.gallery-title{
+    margin-bottom: 2rem;
 }
+
+.photo-gallery{
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+@media(max-width: 768px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+}
+
