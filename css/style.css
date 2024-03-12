@@ -21,7 +21,6 @@ h1{
 }
 h2{
      font-family: "Lexend";
-     padding: 10px;
     font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
@@ -68,9 +67,14 @@ h1{
 
 #showcase {
     /* img not working */
-    background-image: url("https://i.pinimg.com/originals/07/c8/27/07c827e400b5320ead65dabce852cfd2.giff");
+<<<<<<< HEAD
+    background-image:url('../images/pic1.jpeg');
+    background-position: center right;
+=======
+    background-image: url("https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none/plus/misc/images/spinning-optical-illusion.gif");
     background-color: #cccccc;
     background-position: center;
+>>>>>>> 01d767bf786c2d632d93c0030d89c7bc59655914
     height: 300px;
     margin-bottom: 30px;
     text-align: center;
@@ -81,7 +85,7 @@ h1{
     color: black;
     width:100%;
     padding: 0 60px;
-    font-style:Lucida Handwriting;
+    font-style: Lucida Handwriting;
   padding-top:10px;
   padding-bottom:20px;
     box-sizing: border-box;
@@ -100,9 +104,9 @@ h1{
 }  
 
 .h2 {
-    font-style:Copperplate
-  }
-  
+    font-style: Copperplate;
+  } 
+
   #main-footer{
       background: #7C3238;
       color: white;
