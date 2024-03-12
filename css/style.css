@@ -67,8 +67,9 @@ h1{
 
 #showcase {
     /* img not working */
-    background-image:url('../images/pic1.jpeg');
-    background-position: center right;
+    background-image: url("https://i.pinimg.com/originals/07/c8/27/07c827e400b5320ead65dabce852cfd2.giff");
+    background-color: #cccccc;
+    background-position: center;
     height: 300px;
     margin-bottom: 30px;
     text-align: center;
