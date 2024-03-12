@@ -68,8 +68,6 @@ h1{
 
 #showcase {
     /* img not working */
-    background-image: url("https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none/plus/misc/images/spinning-optical-illusion.gif");
-    background-color: #cccccc;
     background-position: center;
     height: 300px;
     margin-bottom: 30px;
